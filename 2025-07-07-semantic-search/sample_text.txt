@@ -1,0 +1,27 @@
+Zoom Background Noise
+
+To reduce background noise in Zoom meetings, navigate to Settings > Audio and enable the “Suppress background noise” feature. Use the “High” setting for maximum suppression during calls.
+
+Camera and Lighting Setup
+
+Good lighting improves video quality significantly. Position your camera at eye level and ensure your background is uncluttered. Natural light or a soft ring light is ideal for professional calls.
+
+Workplace Ergonomics
+
+Adjust your chair and monitor to reduce strain. Keep your elbows at 90 degrees and your monitor at arm’s length to maintain healthy posture during long work sessions.
+
+Coffee Preferences in Remote Teams
+
+Our remote team enjoys sharing coffee recommendations. While some prefer French press or espresso, others use Aeropress or pour-over methods during morning standups.
+
+Deploying Python Apps with Docker
+
+Docker simplifies app deployment by containerizing dependencies. Build an image with a Dockerfile, run it with `docker run`, and expose ports as needed. For Python apps, start from a base image like `python:3.10-slim`.
+
+Common Git Pitfalls
+
+One common issue is committing large files accidentally. Use `.gitignore` to exclude generated files and binary data. Also, avoid rebasing shared branches unless you coordinate with your team.
+
+Custom GPT Applications
+
+You can fine-tune LLMs or use prompt engineering to build tools that summarize, extract, or classify content. Embedding-based retrieval with Qdrant or Pinecone enables context-aware assistants that actually understand your documents.
