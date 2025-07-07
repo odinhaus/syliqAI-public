@@ -1,0 +1,20 @@
+InstructorEmbedding>=1.0.0
+qdrant-client>=1.6.0
+argparse>=1.4.0
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+
+# ----
+# PyTorch installation (choose one based on your setup)
+# ----
+
+# Option 1: CPU-only version (no CUDA required)
+torch==2.2.2+cpu
+
+# Option 2: Install manually for GPU with CUDA 11.8 (recommended)
+# pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu118
+
+# Option 3: For other CUDA versions, see: https://pytorch.org/get-started/locally/
+
+# NOTE: Do not install torch via requirements.txt for GPU environments unless you know your CUDA version.
+# It's best to install it manually to ensure compatibility with your system.
